@@ -25,7 +25,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_6032a5606ca4b9598d61aa0c7f329dc2 {
+                #map_631ae6b6bbebf0eb224a359cf73507a1 {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -54,14 +54,14 @@
     </div>
     
     
-            <div class="folium-map" id="map_6032a5606ca4b9598d61aa0c7f329dc2" ></div>
+            <div class="folium-map" id="map_631ae6b6bbebf0eb224a359cf73507a1" ></div>
         
 </body>
 <script>
     
     
-            var map_6032a5606ca4b9598d61aa0c7f329dc2 = L.map(
-                "map_6032a5606ca4b9598d61aa0c7f329dc2",
+            var map_631ae6b6bbebf0eb224a359cf73507a1 = L.map(
+                "map_631ae6b6bbebf0eb224a359cf73507a1",
                 {
                     center: [40.779875592500005, -104.29195230106575],
                     crs: L.CRS.EPSG3857,
@@ -78,14 +78,14 @@
 
         
     
-            var tile_layer_6876256a1a12d227d9f0d39efd82bafa = L.tileLayer(
-                "Stamen Toner",
+            var tile_layer_da9309deff210b9bee96da64e8af3bc2 = L.tileLayer(
+                "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
                 {
   "minZoom": 0,
   "maxZoom": 18,
   "maxNativeZoom": 18,
   "noWrap": false,
-  "attribution": "Map tiles by Stamen Design, under CC BY 3.0. Data by OpenStreetMap, under ODbL.",
+  "attribution": "Tiles \u00a9 Esri \u2014 Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community",
   "subdomains": "abc",
   "detectRetina": false,
   "tms": false,
@@ -95,23 +95,23 @@
             );
         
     
-            tile_layer_6876256a1a12d227d9f0d39efd82bafa.addTo(map_6032a5606ca4b9598d61aa0c7f329dc2);
+            tile_layer_da9309deff210b9bee96da64e8af3bc2.addTo(map_631ae6b6bbebf0eb224a359cf73507a1);
         
     
-            var marker_cluster_7c7cf3052f3f23bf45fc5f12deb0eb0a = L.markerClusterGroup(
+            var marker_cluster_491970eba6537ae6e0b044a10576b1a4 = L.markerClusterGroup(
                 {
 }
             );
         
     
-            var marker_11a260bc252a58a6afb999ebecd64aa5 = L.marker(
+            var marker_6caa0a6fd05000973728bd444f48b3a0 = L.marker(
                 [44.9391565, -123.033121],
                 {
 }
-            ).addTo(marker_cluster_7c7cf3052f3f23bf45fc5f12deb0eb0a);
+            ).addTo(marker_cluster_491970eba6537ae6e0b044a10576b1a4);
         
     
-            var icon_1490709c6043a6fa70cc3975dcba069c = L.AwesomeMarkers.icon(
+            var icon_8feb86eed27a669d62b551d01a453ea7 = L.AwesomeMarkers.icon(
                 {
   "markerColor": "blue",
   "iconColor": "white",
@@ -122,24 +122,24 @@
             );
         
     
-        var popup_6db101a980933d6684406ed26c40a72a = L.popup({
+        var popup_5e43a0024215f50c61aea83398b817a8 = L.popup({
   "maxWidth": "100%",
 });
 
         
             
-                var html_903538ad56c7289028696a35f5c5b408 = $(`<div id="html_903538ad56c7289028696a35f5c5b408" style="width: 100.0%; height: 100.0%;">2025-01-20 - Salem, OR: Tesla vehicle set on fire with Molotov cocktails at dealership</div>`)[0];
-                popup_6db101a980933d6684406ed26c40a72a.setContent(html_903538ad56c7289028696a35f5c5b408);
+                var html_30981a0b886b2e5f871e8c6637d68f69 = $(`<div id="html_30981a0b886b2e5f871e8c6637d68f69" style="width: 100.0%; height: 100.0%;">2025-01-20 - Salem, OR: Tesla vehicle set on fire with Molotov cocktails at dealership</div>`)[0];
+                popup_5e43a0024215f50c61aea83398b817a8.setContent(html_30981a0b886b2e5f871e8c6637d68f69);
             
         
 
-        marker_11a260bc252a58a6afb999ebecd64aa5.bindPopup(popup_6db101a980933d6684406ed26c40a72a)
+        marker_6caa0a6fd05000973728bd444f48b3a0.bindPopup(popup_5e43a0024215f50c61aea83398b817a8)
         ;
 
         
     
     
-            marker_11a260bc252a58a6afb999ebecd64aa5.bindTooltip(
+            marker_6caa0a6fd05000973728bd444f48b3a0.bindTooltip(
                 `<div>
                      Salem, OR (2025-01-20)
                  </div>`,
@@ -149,17 +149,17 @@
             );
         
     
-                marker_11a260bc252a58a6afb999ebecd64aa5.setIcon(icon_1490709c6043a6fa70cc3975dcba069c);
+                marker_6caa0a6fd05000973728bd444f48b3a0.setIcon(icon_8feb86eed27a669d62b551d01a453ea7);
             
     
-            var marker_ce72eae344789cd1f4052cf2f3ffd7f7 = L.marker(
+            var marker_a6bb4f3475dc96c05c1b31297391c9e8 = L.marker(
                 [40.3977612, -105.07498],
                 {
 }
-            ).addTo(marker_cluster_7c7cf3052f3f23bf45fc5f12deb0eb0a);
+            ).addTo(marker_cluster_491970eba6537ae6e0b044a10576b1a4);
         
     
-            var icon_c523d85a27826d52b42f0654f46ff17e = L.AwesomeMarkers.icon(
+            var icon_83945004ce76ec176e43e2fbc8306f3f = L.AwesomeMarkers.icon(
                 {
   "markerColor": "blue",
   "iconColor": "white",
@@ -170,24 +170,24 @@
             );
         
     
-        var popup_e2459ac3efdba1e56a6ec09f37b9d584 = L.popup({
+        var popup_b2f5c4f396098ca2f736593278ed0e40 = L.popup({
   "maxWidth": "100%",
 });
 
         
             
-                var html_c0c8bd42bd0de58d8d64cd845f3085eb = $(`<div id="html_c0c8bd42bd0de58d8d64cd845f3085eb" style="width: 100.0%; height: 100.0%;">2025-01-29 - Loveland, CO: Molotov cocktail thrown at Cybertruck at dealership</div>`)[0];
-                popup_e2459ac3efdba1e56a6ec09f37b9d584.setContent(html_c0c8bd42bd0de58d8d64cd845f3085eb);
+                var html_9cbeaa83ebf9e374ec29f65f69f2f9c6 = $(`<div id="html_9cbeaa83ebf9e374ec29f65f69f2f9c6" style="width: 100.0%; height: 100.0%;">2025-01-29 - Loveland, CO: Molotov cocktail thrown at Cybertruck at dealership</div>`)[0];
+                popup_b2f5c4f396098ca2f736593278ed0e40.setContent(html_9cbeaa83ebf9e374ec29f65f69f2f9c6);
             
         
 
-        marker_ce72eae344789cd1f4052cf2f3ffd7f7.bindPopup(popup_e2459ac3efdba1e56a6ec09f37b9d584)
+        marker_a6bb4f3475dc96c05c1b31297391c9e8.bindPopup(popup_b2f5c4f396098ca2f736593278ed0e40)
         ;
 
         
     
     
-            marker_ce72eae344789cd1f4052cf2f3ffd7f7.bindTooltip(
+            marker_a6bb4f3475dc96c05c1b31297391c9e8.bindTooltip(
                 `<div>
                      Loveland, CO (2025-01-29)
                  </div>`,
@@ -197,17 +197,17 @@
             );
         
     
-                marker_ce72eae344789cd1f4052cf2f3ffd7f7.setIcon(icon_c523d85a27826d52b42f0654f46ff17e);
+                marker_a6bb4f3475dc96c05c1b31297391c9e8.setIcon(icon_83945004ce76ec176e43e2fbc8306f3f);
             
     
-            var marker_ddf0a17c2b04d7c88e7d091182dc24b4 = L.marker(
+            var marker_bb5c86180455a354f3feebae43129b5d = L.marker(
                 [40.3977612, -105.07498],
                 {
 }
-            ).addTo(marker_cluster_7c7cf3052f3f23bf45fc5f12deb0eb0a);
+            ).addTo(marker_cluster_491970eba6537ae6e0b044a10576b1a4);
         
     
-            var icon_49b1aa83647fdeddd1fa9a39823df39a = L.AwesomeMarkers.icon(
+            var icon_d6848628073543177de1f876253c8403 = L.AwesomeMarkers.icon(
                 {
   "markerColor": "blue",
   "iconColor": "white",
@@ -218,24 +218,24 @@
             );
         
     
-        var popup_7c9ad1382224451fb6c100ba076e069d = L.popup({
+        var popup_bcdc8a22e4cb3a07b934ce54d0452a36 = L.popup({
   "maxWidth": "100%",
 });
 
         
             
-                var html_75865d5ec5ea1cbf8d39b226455bcb20 = $(`<div id="html_75865d5ec5ea1cbf8d39b226455bcb20" style="width: 100.0%; height: 100.0%;">2025-02-11 - Loveland, CO: Spray-painted 'Nazi' on dealership windows and vehicles</div>`)[0];
-                popup_7c9ad1382224451fb6c100ba076e069d.setContent(html_75865d5ec5ea1cbf8d39b226455bcb20);
+                var html_e33e4e92fa58df3c4954ef581f74a0f8 = $(`<div id="html_e33e4e92fa58df3c4954ef581f74a0f8" style="width: 100.0%; height: 100.0%;">2025-02-11 - Loveland, CO: Spray-painted 'Nazi' on dealership windows and vehicles</div>`)[0];
+                popup_bcdc8a22e4cb3a07b934ce54d0452a36.setContent(html_e33e4e92fa58df3c4954ef581f74a0f8);
             
         
 
-        marker_ddf0a17c2b04d7c88e7d091182dc24b4.bindPopup(popup_7c9ad1382224451fb6c100ba076e069d)
+        marker_bb5c86180455a354f3feebae43129b5d.bindPopup(popup_bcdc8a22e4cb3a07b934ce54d0452a36)
         ;
 
         
     
     
-            marker_ddf0a17c2b04d7c88e7d091182dc24b4.bindTooltip(
+            marker_bb5c86180455a354f3feebae43129b5d.bindTooltip(
                 `<div>
                      Loveland, CO (2025-02-11)
                  </div>`,
@@ -245,17 +245,17 @@
             );
         
     
-                marker_ddf0a17c2b04d7c88e7d091182dc24b4.setIcon(icon_49b1aa83647fdeddd1fa9a39823df39a);
+                marker_bb5c86180455a354f3feebae43129b5d.setIcon(icon_d6848628073543177de1f876253c8403);
             
     
-            var marker_209fdd3640ee7ae3d37fe299b72269b5 = L.marker(
+            var marker_2c03005bd70d6edfa9591996ad1e2852 = L.marker(
                 [44.9391565, -123.033121],
                 {
 }
-            ).addTo(marker_cluster_7c7cf3052f3f23bf45fc5f12deb0eb0a);
+            ).addTo(marker_cluster_491970eba6537ae6e0b044a10576b1a4);
         
     
-            var icon_afcbd8afb6d003a19aa64fb06fd672db = L.AwesomeMarkers.icon(
+            var icon_b0da9dd15db371b7d266dc105964ba3f = L.AwesomeMarkers.icon(
                 {
   "markerColor": "blue",
   "iconColor": "white",
@@ -266,24 +266,24 @@
             );
         
     
-        var popup_a3647a055035ddd9fe2668df35a9c952 = L.popup({
+        var popup_b7bee97f84722ad0bd2228bd730b2795 = L.popup({
   "maxWidth": "100%",
 });
 
         
             
-                var html_7507e7a8d337ca178611ed1d5fb5cdbd = $(`<div id="html_7507e7a8d337ca178611ed1d5fb5cdbd" style="width: 100.0%; height: 100.0%;">2025-02-19 - Salem, OR: Gunshots fired at dealership windows by AR-style rifle</div>`)[0];
-                popup_a3647a055035ddd9fe2668df35a9c952.setContent(html_7507e7a8d337ca178611ed1d5fb5cdbd);
+                var html_0b6bc127c46c0fc0d56a182327d20a28 = $(`<div id="html_0b6bc127c46c0fc0d56a182327d20a28" style="width: 100.0%; height: 100.0%;">2025-02-19 - Salem, OR: Gunshots fired at dealership windows by AR-style rifle</div>`)[0];
+                popup_b7bee97f84722ad0bd2228bd730b2795.setContent(html_0b6bc127c46c0fc0d56a182327d20a28);
             
         
 
-        marker_209fdd3640ee7ae3d37fe299b72269b5.bindPopup(popup_a3647a055035ddd9fe2668df35a9c952)
+        marker_2c03005bd70d6edfa9591996ad1e2852.bindPopup(popup_b7bee97f84722ad0bd2228bd730b2795)
         ;
 
         
     
     
-            marker_209fdd3640ee7ae3d37fe299b72269b5.bindTooltip(
+            marker_2c03005bd70d6edfa9591996ad1e2852.bindTooltip(
                 `<div>
                      Salem, OR (2025-02-19)
                  </div>`,
@@ -293,17 +293,17 @@
             );
         
     
-                marker_209fdd3640ee7ae3d37fe299b72269b5.setIcon(icon_afcbd8afb6d003a19aa64fb06fd672db);
+                marker_2c03005bd70d6edfa9591996ad1e2852.setIcon(icon_b0da9dd15db371b7d266dc105964ba3f);
             
     
-            var marker_c9e185758f3dce3b5fcf05977f82436f = L.marker(
+            var marker_6d5f0de16c81d276817cdb4cadd10af2 = L.marker(
                 [40.3977612, -105.07498],
                 {
 }
-            ).addTo(marker_cluster_7c7cf3052f3f23bf45fc5f12deb0eb0a);
+            ).addTo(marker_cluster_491970eba6537ae6e0b044a10576b1a4);
         
     
-            var icon_89cb4e7ccff86224fa5a7bfea34a2850 = L.AwesomeMarkers.icon(
+            var icon_81e99ef518f89e564a1a1f26cfd0e6c7 = L.AwesomeMarkers.icon(
                 {
   "markerColor": "blue",
   "iconColor": "white",
@@ -314,24 +314,24 @@
             );
         
     
-        var popup_89288867253ede76f7e745e4849482ee = L.popup({
+        var popup_9439ca974a914cde0f8e0d853247d371 = L.popup({
   "maxWidth": "100%",
 });
 
         
             
-                var html_260f824e9e87a40ae791e49999779ebd = $(`<div id="html_260f824e9e87a40ae791e49999779ebd" style="width: 100.0%; height: 100.0%;">2025-02-24 - Loveland, CO: Nelson arrested with Molotov cocktails after multiple attacks</div>`)[0];
-                popup_89288867253ede76f7e745e4849482ee.setContent(html_260f824e9e87a40ae791e49999779ebd);
+                var html_981d84fe0d8e3e4aacfb9f6bfce3911c = $(`<div id="html_981d84fe0d8e3e4aacfb9f6bfce3911c" style="width: 100.0%; height: 100.0%;">2025-02-24 - Loveland, CO: Nelson arrested with Molotov cocktails after multiple attacks</div>`)[0];
+                popup_9439ca974a914cde0f8e0d853247d371.setContent(html_981d84fe0d8e3e4aacfb9f6bfce3911c);
             
         
 
-        marker_c9e185758f3dce3b5fcf05977f82436f.bindPopup(popup_89288867253ede76f7e745e4849482ee)
+        marker_6d5f0de16c81d276817cdb4cadd10af2.bindPopup(popup_9439ca974a914cde0f8e0d853247d371)
         ;
 
         
     
     
-            marker_c9e185758f3dce3b5fcf05977f82436f.bindTooltip(
+            marker_6d5f0de16c81d276817cdb4cadd10af2.bindTooltip(
                 `<div>
                      Loveland, CO (2025-02-24)
                  </div>`,
@@ -341,17 +341,17 @@
             );
         
     
-                marker_c9e185758f3dce3b5fcf05977f82436f.setIcon(icon_89cb4e7ccff86224fa5a7bfea34a2850);
+                marker_6d5f0de16c81d276817cdb4cadd10af2.setIcon(icon_81e99ef518f89e564a1a1f26cfd0e6c7);
             
     
-            var marker_355f94f330b0d84b38502c8ae390fada = L.marker(
+            var marker_71b34da218c04d8d03800d68f3ba7e84 = L.marker(
                 [39.41484355, -76.79182399596584],
                 {
 }
-            ).addTo(marker_cluster_7c7cf3052f3f23bf45fc5f12deb0eb0a);
+            ).addTo(marker_cluster_491970eba6537ae6e0b044a10576b1a4);
         
     
-            var icon_feeb283dd1753d8de630cc92d0394410 = L.AwesomeMarkers.icon(
+            var icon_b0dc64dac9ceef525675847b459606c2 = L.AwesomeMarkers.icon(
                 {
   "markerColor": "blue",
   "iconColor": "white",
@@ -362,24 +362,24 @@
             );
         
     
-        var popup_b09d2e376b61a0940da708768753ba21 = L.popup({
+        var popup_2903a179eb6fec159ad64c73366734ef = L.popup({
   "maxWidth": "100%",
 });
 
         
             
-                var html_c48b8827272f6b70bce3ce302d90a94f = $(`<div id="html_c48b8827272f6b70bce3ce302d90a94f" style="width: 100.0%; height: 100.0%;">2025-03-02 - Owings Mills, MD: Dealership spray-painted with 'NO MUSK' and 'X' symbol</div>`)[0];
-                popup_b09d2e376b61a0940da708768753ba21.setContent(html_c48b8827272f6b70bce3ce302d90a94f);
+                var html_2c6783e9f59e611c70987407abaaef3e = $(`<div id="html_2c6783e9f59e611c70987407abaaef3e" style="width: 100.0%; height: 100.0%;">2025-03-02 - Owings Mills, MD: Dealership spray-painted with 'NO MUSK' and 'X' symbol</div>`)[0];
+                popup_2903a179eb6fec159ad64c73366734ef.setContent(html_2c6783e9f59e611c70987407abaaef3e);
             
         
 
-        marker_355f94f330b0d84b38502c8ae390fada.bindPopup(popup_b09d2e376b61a0940da708768753ba21)
+        marker_71b34da218c04d8d03800d68f3ba7e84.bindPopup(popup_2903a179eb6fec159ad64c73366734ef)
         ;
 
         
     
     
-            marker_355f94f330b0d84b38502c8ae390fada.bindTooltip(
+            marker_71b34da218c04d8d03800d68f3ba7e84.bindTooltip(
                 `<div>
                      Owings Mills, MD (2025-03-02)
                  </div>`,
@@ -389,17 +389,17 @@
             );
         
     
-                marker_355f94f330b0d84b38502c8ae390fada.setIcon(icon_feeb283dd1753d8de630cc92d0394410);
+                marker_71b34da218c04d8d03800d68f3ba7e84.setIcon(icon_b0dc64dac9ceef525675847b459606c2);
             
     
-            var marker_b62049fa483731acf98204e95783ddf9 = L.marker(
+            var marker_01530bc5f46b17b2665df869b5afb5ab = L.marker(
                 [42.5375917, -71.5120096],
                 {
 }
-            ).addTo(marker_cluster_7c7cf3052f3f23bf45fc5f12deb0eb0a);
+            ).addTo(marker_cluster_491970eba6537ae6e0b044a10576b1a4);
         
     
-            var icon_30528bcba6d2a094476b2ac1b4db55c3 = L.AwesomeMarkers.icon(
+            var icon_00ac39479566a30a80caffe5a897839f = L.AwesomeMarkers.icon(
                 {
   "markerColor": "blue",
   "iconColor": "white",
@@ -410,24 +410,24 @@
             );
         
     
-        var popup_a6e5ebda3558d056a992078d3b72e754 = L.popup({
+        var popup_e4018a0132958073e46d690a68298db7 = L.popup({
   "maxWidth": "100%",
 });
 
         
             
-                var html_bf0bcdf15d310653c5f2915e7279ed18 = $(`<div id="html_bf0bcdf15d310653c5f2915e7279ed18" style="width: 100.0%; height: 100.0%;">2025-03-03 - Littleton, MA: Seven Tesla charging stations set on fire at shopping center</div>`)[0];
-                popup_a6e5ebda3558d056a992078d3b72e754.setContent(html_bf0bcdf15d310653c5f2915e7279ed18);
+                var html_8d7084b596d2eae6b72a62bec7ec7399 = $(`<div id="html_8d7084b596d2eae6b72a62bec7ec7399" style="width: 100.0%; height: 100.0%;">2025-03-03 - Littleton, MA: Seven Tesla charging stations set on fire at shopping center</div>`)[0];
+                popup_e4018a0132958073e46d690a68298db7.setContent(html_8d7084b596d2eae6b72a62bec7ec7399);
             
         
 
-        marker_b62049fa483731acf98204e95783ddf9.bindPopup(popup_a6e5ebda3558d056a992078d3b72e754)
+        marker_01530bc5f46b17b2665df869b5afb5ab.bindPopup(popup_e4018a0132958073e46d690a68298db7)
         ;
 
         
     
     
-            marker_b62049fa483731acf98204e95783ddf9.bindTooltip(
+            marker_01530bc5f46b17b2665df869b5afb5ab.bindTooltip(
                 `<div>
                      Littleton, MA (2025-03-03)
                  </div>`,
@@ -437,17 +437,17 @@
             );
         
     
-                marker_b62049fa483731acf98204e95783ddf9.setIcon(icon_30528bcba6d2a094476b2ac1b4db55c3);
+                marker_01530bc5f46b17b2665df869b5afb5ab.setIcon(icon_00ac39479566a30a80caffe5a897839f);
             
     
-            var marker_6ea67f4ac1767944692d606aea8af1b1 = L.marker(
+            var marker_9a56803142ea9478728299942d520fde = L.marker(
                 [45.4307473, -122.771933],
                 {
 }
-            ).addTo(marker_cluster_7c7cf3052f3f23bf45fc5f12deb0eb0a);
+            ).addTo(marker_cluster_491970eba6537ae6e0b044a10576b1a4);
         
     
-            var icon_171d30525c7937a29217e577ceec7cc3 = L.AwesomeMarkers.icon(
+            var icon_d3d15995b93846f69f4ef0e9d038badb = L.AwesomeMarkers.icon(
                 {
   "markerColor": "blue",
   "iconColor": "white",
@@ -458,24 +458,24 @@
             );
         
     
-        var popup_48df4e872d529172795929958489a64c = L.popup({
+        var popup_8124d5f251c68c0e2442c80c07e99e0b = L.popup({
   "maxWidth": "100%",
 });
 
         
             
-                var html_c6835cf872389057bdf23037aab93ff8 = $(`<div id="html_c6835cf872389057bdf23037aab93ff8" style="width: 100.0%; height: 100.0%;">2025-03-06 - Tigard, OR: Dealership hit with seven gunshots, damaging cars and windows</div>`)[0];
-                popup_48df4e872d529172795929958489a64c.setContent(html_c6835cf872389057bdf23037aab93ff8);
+                var html_0fa6779cda0c751884dce3b53602e80d = $(`<div id="html_0fa6779cda0c751884dce3b53602e80d" style="width: 100.0%; height: 100.0%;">2025-03-06 - Tigard, OR: Dealership hit with seven gunshots, damaging cars and windows</div>`)[0];
+                popup_8124d5f251c68c0e2442c80c07e99e0b.setContent(html_0fa6779cda0c751884dce3b53602e80d);
             
         
 
-        marker_6ea67f4ac1767944692d606aea8af1b1.bindPopup(popup_48df4e872d529172795929958489a64c)
+        marker_9a56803142ea9478728299942d520fde.bindPopup(popup_8124d5f251c68c0e2442c80c07e99e0b)
         ;
 
         
     
     
-            marker_6ea67f4ac1767944692d606aea8af1b1.bindTooltip(
+            marker_9a56803142ea9478728299942d520fde.bindTooltip(
                 `<div>
                      Tigard, OR (2025-03-06)
                  </div>`,
@@ -485,17 +485,17 @@
             );
         
     
-                marker_6ea67f4ac1767944692d606aea8af1b1.setIcon(icon_171d30525c7937a29217e577ceec7cc3);
+                marker_9a56803142ea9478728299942d520fde.setIcon(icon_d3d15995b93846f69f4ef0e9d038badb);
             
     
-            var marker_9e4e51fa06891fdefa5f8c34ae82cf5a = L.marker(
+            var marker_6b55b486e0fbb41ae9494f38cc5d926a = L.marker(
                 [32.8546197, -79.9748103],
                 {
 }
-            ).addTo(marker_cluster_7c7cf3052f3f23bf45fc5f12deb0eb0a);
+            ).addTo(marker_cluster_491970eba6537ae6e0b044a10576b1a4);
         
     
-            var icon_06efdcc7d39622d01ebc2175b8a9f62b = L.AwesomeMarkers.icon(
+            var icon_0d6d0fbc7bf7db40970e7ad7e4462bd1 = L.AwesomeMarkers.icon(
                 {
   "markerColor": "blue",
   "iconColor": "white",
@@ -506,24 +506,24 @@
             );
         
     
-        var popup_d7122d4fc54a315fc2be2f09b36d6698 = L.popup({
+        var popup_5493882532a9abd8a56d2aa58a52ffb4 = L.popup({
   "maxWidth": "100%",
 });
 
         
             
-                var html_b9306e1d4bc642b56e6c56fc160dd36f = $(`<div id="html_b9306e1d4bc642b56e6c56fc160dd36f" style="width: 100.0%; height: 100.0%;">2025-03-07 - North Charleston, SC: Molotov cocktails at charging station, 'Fuck Trump, long live Ukraine' graffiti</div>`)[0];
-                popup_d7122d4fc54a315fc2be2f09b36d6698.setContent(html_b9306e1d4bc642b56e6c56fc160dd36f);
+                var html_07c50580b08efbfde7bf0185c9cfcbad = $(`<div id="html_07c50580b08efbfde7bf0185c9cfcbad" style="width: 100.0%; height: 100.0%;">2025-03-07 - North Charleston, SC: Molotov cocktails at charging station, 'Fuck Trump, long live Ukraine' graffiti</div>`)[0];
+                popup_5493882532a9abd8a56d2aa58a52ffb4.setContent(html_07c50580b08efbfde7bf0185c9cfcbad);
             
         
 
-        marker_9e4e51fa06891fdefa5f8c34ae82cf5a.bindPopup(popup_d7122d4fc54a315fc2be2f09b36d6698)
+        marker_6b55b486e0fbb41ae9494f38cc5d926a.bindPopup(popup_5493882532a9abd8a56d2aa58a52ffb4)
         ;
 
         
     
     
-            marker_9e4e51fa06891fdefa5f8c34ae82cf5a.bindTooltip(
+            marker_6b55b486e0fbb41ae9494f38cc5d926a.bindTooltip(
                 `<div>
                      North Charleston, SC (2025-03-07)
                  </div>`,
@@ -533,17 +533,17 @@
             );
         
     
-                marker_9e4e51fa06891fdefa5f8c34ae82cf5a.setIcon(icon_06efdcc7d39622d01ebc2175b8a9f62b);
+                marker_6b55b486e0fbb41ae9494f38cc5d926a.setIcon(icon_0d6d0fbc7bf7db40970e7ad7e4462bd1);
             
     
-            var marker_b5b59ec463fea8a47ac2c6220a6158ea = L.marker(
+            var marker_54fc615cb897c1674e53dca797ddc73c = L.marker(
                 [47.6038321, -122.330062],
                 {
 }
-            ).addTo(marker_cluster_7c7cf3052f3f23bf45fc5f12deb0eb0a);
+            ).addTo(marker_cluster_491970eba6537ae6e0b044a10576b1a4);
         
     
-            var icon_0350b0dd45fdd7a27e3af94548e3b7b0 = L.AwesomeMarkers.icon(
+            var icon_36204cec46aea7145f038d41f6cde8da = L.AwesomeMarkers.icon(
                 {
   "markerColor": "blue",
   "iconColor": "white",
@@ -554,24 +554,24 @@
             );
         
     
-        var popup_d7eebae07df2b32611b21f4d059742c9 = L.popup({
+        var popup_320d4b891658669872947e2287db1d78 = L.popup({
   "maxWidth": "100%",
 });
 
         
             
-                var html_1579f31beea26a00bd539994f1aaef63 = $(`<div id="html_1579f31beea26a00bd539994f1aaef63" style="width: 100.0%; height: 100.0%;">2025-03-09 - Seattle, WA: Four Cybertrucks set on fire at Tesla lot</div>`)[0];
-                popup_d7eebae07df2b32611b21f4d059742c9.setContent(html_1579f31beea26a00bd539994f1aaef63);
+                var html_5fcf14344c57b67ec661016e3aa7047d = $(`<div id="html_5fcf14344c57b67ec661016e3aa7047d" style="width: 100.0%; height: 100.0%;">2025-03-09 - Seattle, WA: Four Cybertrucks set on fire at Tesla lot</div>`)[0];
+                popup_320d4b891658669872947e2287db1d78.setContent(html_5fcf14344c57b67ec661016e3aa7047d);
             
         
 
-        marker_b5b59ec463fea8a47ac2c6220a6158ea.bindPopup(popup_d7eebae07df2b32611b21f4d059742c9)
+        marker_54fc615cb897c1674e53dca797ddc73c.bindPopup(popup_320d4b891658669872947e2287db1d78)
         ;
 
         
     
     
-            marker_b5b59ec463fea8a47ac2c6220a6158ea.bindTooltip(
+            marker_54fc615cb897c1674e53dca797ddc73c.bindTooltip(
                 `<div>
                      Seattle, WA (2025-03-09)
                  </div>`,
@@ -581,17 +581,17 @@
             );
         
     
-                marker_b5b59ec463fea8a47ac2c6220a6158ea.setIcon(icon_0350b0dd45fdd7a27e3af94548e3b7b0);
+                marker_54fc615cb897c1674e53dca797ddc73c.setIcon(icon_36204cec46aea7145f038d41f6cde8da);
             
     
-            var marker_9efc9d91a7d8037c6a2b5b972a38f883 = L.marker(
+            var marker_a40fc6fe26975d2de7e158c9b43e740b = L.marker(
                 [42.2489143, -71.1755732],
                 {
 }
-            ).addTo(marker_cluster_7c7cf3052f3f23bf45fc5f12deb0eb0a);
+            ).addTo(marker_cluster_491970eba6537ae6e0b044a10576b1a4);
         
     
-            var icon_d25261445a00e17407bbeabbe7b4b7be = L.AwesomeMarkers.icon(
+            var icon_c8ff9cafc30508d79ac43398f252e880 = L.AwesomeMarkers.icon(
                 {
   "markerColor": "blue",
   "iconColor": "white",
@@ -602,24 +602,24 @@
             );
         
     
-        var popup_ec69661bbc13d1cf3daadc58b24fa9ef = L.popup({
+        var popup_5c0b335d9d1e4a724337065ce491f7b4 = L.popup({
   "maxWidth": "100%",
 });
 
         
             
-                var html_248f3af134d2fe941c162b261b09c0b2 = $(`<div id="html_248f3af134d2fe941c162b261b09c0b2" style="width: 100.0%; height: 100.0%;">2025-03-11 - Dedham, MA: Three Teslas vandalized, Cybertrucks spray-painted, tires damaged</div>`)[0];
-                popup_ec69661bbc13d1cf3daadc58b24fa9ef.setContent(html_248f3af134d2fe941c162b261b09c0b2);
+                var html_c0acb80029c40adedef66465d87475e8 = $(`<div id="html_c0acb80029c40adedef66465d87475e8" style="width: 100.0%; height: 100.0%;">2025-03-11 - Dedham, MA: Three Teslas vandalized, Cybertrucks spray-painted, tires damaged</div>`)[0];
+                popup_5c0b335d9d1e4a724337065ce491f7b4.setContent(html_c0acb80029c40adedef66465d87475e8);
             
         
 
-        marker_9efc9d91a7d8037c6a2b5b972a38f883.bindPopup(popup_ec69661bbc13d1cf3daadc58b24fa9ef)
+        marker_a40fc6fe26975d2de7e158c9b43e740b.bindPopup(popup_5c0b335d9d1e4a724337065ce491f7b4)
         ;
 
         
     
     
-            marker_9efc9d91a7d8037c6a2b5b972a38f883.bindTooltip(
+            marker_a40fc6fe26975d2de7e158c9b43e740b.bindTooltip(
                 `<div>
                      Dedham, MA (2025-03-11)
                  </div>`,
@@ -629,17 +629,17 @@
             );
         
     
-                marker_9efc9d91a7d8037c6a2b5b972a38f883.setIcon(icon_d25261445a00e17407bbeabbe7b4b7be);
+                marker_a40fc6fe26975d2de7e158c9b43e740b.setIcon(icon_c8ff9cafc30508d79ac43398f252e880);
             
     
-            var marker_f1b3ca123de8ce8552c13116bd7d25d2 = L.marker(
+            var marker_f2c5789ad0f2fda089dadd4bf9a3f17c = L.marker(
                 [45.4307473, -122.771933],
                 {
 }
-            ).addTo(marker_cluster_7c7cf3052f3f23bf45fc5f12deb0eb0a);
+            ).addTo(marker_cluster_491970eba6537ae6e0b044a10576b1a4);
         
     
-            var icon_b772c40a12bc5bd8cd11d2ebcf8faf35 = L.AwesomeMarkers.icon(
+            var icon_3f6b22e19123e5f46b415a76abc00d47 = L.AwesomeMarkers.icon(
                 {
   "markerColor": "blue",
   "iconColor": "white",
@@ -650,24 +650,24 @@
             );
         
     
-        var popup_abbd1b2ad43de6260725e71e6d7a5c53 = L.popup({
+        var popup_a956515c36cced5488b6a378653a3b52 = L.popup({
   "maxWidth": "100%",
 });
 
         
             
-                var html_7553e4ad19d26f73db89031829e5e064 = $(`<div id="html_7553e4ad19d26f73db89031829e5e064" style="width: 100.0%; height: 100.0%;">2025-03-13 - Tigard, OR: Second gunfire attack at dealership, over a dozen shots fired</div>`)[0];
-                popup_abbd1b2ad43de6260725e71e6d7a5c53.setContent(html_7553e4ad19d26f73db89031829e5e064);
+                var html_2f203937fe1a7c2f995a3ca900c2fe50 = $(`<div id="html_2f203937fe1a7c2f995a3ca900c2fe50" style="width: 100.0%; height: 100.0%;">2025-03-13 - Tigard, OR: Second gunfire attack at dealership, over a dozen shots fired</div>`)[0];
+                popup_a956515c36cced5488b6a378653a3b52.setContent(html_2f203937fe1a7c2f995a3ca900c2fe50);
             
         
 
-        marker_f1b3ca123de8ce8552c13116bd7d25d2.bindPopup(popup_abbd1b2ad43de6260725e71e6d7a5c53)
+        marker_f2c5789ad0f2fda089dadd4bf9a3f17c.bindPopup(popup_a956515c36cced5488b6a378653a3b52)
         ;
 
         
     
     
-            marker_f1b3ca123de8ce8552c13116bd7d25d2.bindTooltip(
+            marker_f2c5789ad0f2fda089dadd4bf9a3f17c.bindTooltip(
                 `<div>
                      Tigard, OR (2025-03-13)
                  </div>`,
@@ -677,17 +677,17 @@
             );
         
     
-                marker_f1b3ca123de8ce8552c13116bd7d25d2.setIcon(icon_b772c40a12bc5bd8cd11d2ebcf8faf35);
+                marker_f2c5789ad0f2fda089dadd4bf9a3f17c.setIcon(icon_3f6b22e19123e5f46b415a76abc00d47);
             
     
-            var marker_a32eed3245c16e61a263c7b11daaf3eb = L.marker(
+            var marker_af92edf2206528fd184e8ca1eff68e97 = L.marker(
                 [37.8708393, -122.272863],
                 {
 }
-            ).addTo(marker_cluster_7c7cf3052f3f23bf45fc5f12deb0eb0a);
+            ).addTo(marker_cluster_491970eba6537ae6e0b044a10576b1a4);
         
     
-            var icon_23f7d35a1730e73864d03efddcde4983 = L.AwesomeMarkers.icon(
+            var icon_7acc5235a09bf39b4312d87d3943de4d = L.AwesomeMarkers.icon(
                 {
   "markerColor": "blue",
   "iconColor": "white",
@@ -698,24 +698,24 @@
             );
         
     
-        var popup_874870bd48a04191edecc17463971cab = L.popup({
+        var popup_6035907fd0ac5c52bf211e8e0a9ddc48 = L.popup({
   "maxWidth": "100%",
 });
 
         
             
-                var html_9b710b06c538ce6a3aa87ae4a8b0c822 = $(`<div id="html_9b710b06c538ce6a3aa87ae4a8b0c822" style="width: 100.0%; height: 100.0%;">2025-03-16 - Berkeley, CA: Tesla spray-painted at Whole Foods parking lot</div>`)[0];
-                popup_874870bd48a04191edecc17463971cab.setContent(html_9b710b06c538ce6a3aa87ae4a8b0c822);
+                var html_efdfa13e019f91b1994e649acff09543 = $(`<div id="html_efdfa13e019f91b1994e649acff09543" style="width: 100.0%; height: 100.0%;">2025-03-16 - Berkeley, CA: Tesla spray-painted at Whole Foods parking lot</div>`)[0];
+                popup_6035907fd0ac5c52bf211e8e0a9ddc48.setContent(html_efdfa13e019f91b1994e649acff09543);
             
         
 
-        marker_a32eed3245c16e61a263c7b11daaf3eb.bindPopup(popup_874870bd48a04191edecc17463971cab)
+        marker_af92edf2206528fd184e8ca1eff68e97.bindPopup(popup_6035907fd0ac5c52bf211e8e0a9ddc48)
         ;
 
         
     
     
-            marker_a32eed3245c16e61a263c7b11daaf3eb.bindTooltip(
+            marker_af92edf2206528fd184e8ca1eff68e97.bindTooltip(
                 `<div>
                      Berkeley, CA (2025-03-16)
                  </div>`,
@@ -725,17 +725,17 @@
             );
         
     
-                marker_a32eed3245c16e61a263c7b11daaf3eb.setIcon(icon_23f7d35a1730e73864d03efddcde4983);
+                marker_af92edf2206528fd184e8ca1eff68e97.setIcon(icon_7acc5235a09bf39b4312d87d3943de4d);
             
     
-            var marker_e72f181f4967dbcd4bc4f62bca041694 = L.marker(
+            var marker_b651c9cde72c676a0ff0c4c5183af218 = L.marker(
                 [37.3361663, -121.890591],
                 {
 }
-            ).addTo(marker_cluster_7c7cf3052f3f23bf45fc5f12deb0eb0a);
+            ).addTo(marker_cluster_491970eba6537ae6e0b044a10576b1a4);
         
     
-            var icon_3a1e8701a42813cc4bd2e51fbd5523d7 = L.AwesomeMarkers.icon(
+            var icon_23bf7cc824ac600f52b71965c06f210a = L.AwesomeMarkers.icon(
                 {
   "markerColor": "blue",
   "iconColor": "white",
@@ -746,24 +746,24 @@
             );
         
     
-        var popup_4003e2eb59b99127d1a345b0cf05aa59 = L.popup({
+        var popup_a088e07c8c6b6864e131414bfbb626e8 = L.popup({
   "maxWidth": "100%",
 });
 
         
             
-                var html_01c3bdf8b7e54ad96cd83296d4cb2e13 = $(`<div id="html_01c3bdf8b7e54ad96cd83296d4cb2e13" style="width: 100.0%; height: 100.0%;">2025-03-17 - San Jose, CA: Tesla keyed in Costco parking lot</div>`)[0];
-                popup_4003e2eb59b99127d1a345b0cf05aa59.setContent(html_01c3bdf8b7e54ad96cd83296d4cb2e13);
+                var html_6265f6c29c4a8fb15a5851b6f580bf42 = $(`<div id="html_6265f6c29c4a8fb15a5851b6f580bf42" style="width: 100.0%; height: 100.0%;">2025-03-17 - San Jose, CA: Tesla keyed in Costco parking lot</div>`)[0];
+                popup_a088e07c8c6b6864e131414bfbb626e8.setContent(html_6265f6c29c4a8fb15a5851b6f580bf42);
             
         
 
-        marker_e72f181f4967dbcd4bc4f62bca041694.bindPopup(popup_4003e2eb59b99127d1a345b0cf05aa59)
+        marker_b651c9cde72c676a0ff0c4c5183af218.bindPopup(popup_a088e07c8c6b6864e131414bfbb626e8)
         ;
 
         
     
     
-            marker_e72f181f4967dbcd4bc4f62bca041694.bindTooltip(
+            marker_b651c9cde72c676a0ff0c4c5183af218.bindTooltip(
                 `<div>
                      San Jose, CA (2025-03-17)
                  </div>`,
@@ -773,17 +773,17 @@
             );
         
     
-                marker_e72f181f4967dbcd4bc4f62bca041694.setIcon(icon_3a1e8701a42813cc4bd2e51fbd5523d7);
+                marker_b651c9cde72c676a0ff0c4c5183af218.setIcon(icon_23bf7cc824ac600f52b71965c06f210a);
             
     
-            var marker_577bc63fb9b19aef3131c34db853968f = L.marker(
+            var marker_f8fbc4ae1aad138b99e251aabdff9fab = L.marker(
                 [36.2533896, -115.2794366262601],
                 {
 }
-            ).addTo(marker_cluster_7c7cf3052f3f23bf45fc5f12deb0eb0a);
+            ).addTo(marker_cluster_491970eba6537ae6e0b044a10576b1a4);
         
     
-            var icon_a94e52d18f15227cb50a23660371670d = L.AwesomeMarkers.icon(
+            var icon_6aafa169d9811980416f215fe96322c0 = L.AwesomeMarkers.icon(
                 {
   "markerColor": "blue",
   "iconColor": "white",
@@ -794,24 +794,24 @@
             );
         
     
-        var popup_94bb1d7b8dac2e88254adb0c97f76a8f = L.popup({
+        var popup_112c500ab138bbd680313ee772d8c9b4 = L.popup({
   "maxWidth": "100%",
 });
 
         
             
-                var html_cbf89b8871136e327b45de69b20bb907 = $(`<div id="html_cbf89b8871136e327b45de69b20bb907" style="width: 100.0%; height: 100.0%;">2025-03-18 - Las Vegas, NV: Five Teslas set on fire and shot, 'RESIST' spray-painted on doors</div>`)[0];
-                popup_94bb1d7b8dac2e88254adb0c97f76a8f.setContent(html_cbf89b8871136e327b45de69b20bb907);
+                var html_16c21a12ec2d32d9fc0cf4ce42a6e3cb = $(`<div id="html_16c21a12ec2d32d9fc0cf4ce42a6e3cb" style="width: 100.0%; height: 100.0%;">2025-03-18 - Las Vegas, NV: Five Teslas set on fire and shot, 'RESIST' spray-painted on doors</div>`)[0];
+                popup_112c500ab138bbd680313ee772d8c9b4.setContent(html_16c21a12ec2d32d9fc0cf4ce42a6e3cb);
             
         
 
-        marker_577bc63fb9b19aef3131c34db853968f.bindPopup(popup_94bb1d7b8dac2e88254adb0c97f76a8f)
+        marker_f8fbc4ae1aad138b99e251aabdff9fab.bindPopup(popup_112c500ab138bbd680313ee772d8c9b4)
         ;
 
         
     
     
-            marker_577bc63fb9b19aef3131c34db853968f.bindTooltip(
+            marker_f8fbc4ae1aad138b99e251aabdff9fab.bindTooltip(
                 `<div>
                      Las Vegas, NV (2025-03-18)
                  </div>`,
@@ -821,17 +821,17 @@
             );
         
     
-                marker_577bc63fb9b19aef3131c34db853968f.setIcon(icon_a94e52d18f15227cb50a23660371670d);
+                marker_f8fbc4ae1aad138b99e251aabdff9fab.setIcon(icon_6aafa169d9811980416f215fe96322c0);
             
     
-            var marker_f50ef68eba6e05c75a9a599266e86350 = L.marker(
+            var marker_f74f5e863d5837f46d25f28b3ef4f381 = L.marker(
                 [43.6534817, -79.3839347],
                 {
 }
-            ).addTo(marker_cluster_7c7cf3052f3f23bf45fc5f12deb0eb0a);
+            ).addTo(marker_cluster_491970eba6537ae6e0b044a10576b1a4);
         
     
-            var icon_e2caf66c37d90d652e852c3691bef0de = L.AwesomeMarkers.icon(
+            var icon_9264dc9821e2b7d0d8932693b962834e = L.AwesomeMarkers.icon(
                 {
   "markerColor": "blue",
   "iconColor": "white",
@@ -842,24 +842,24 @@
             );
         
     
-        var popup_f47397a14b23ca6e7f3b9ec6352d9c9d = L.popup({
+        var popup_787b5039114b351d5b48064ace43ecfc = L.popup({
   "maxWidth": "100%",
 });
 
         
             
-                var html_bc5391d42ef4575ddb3b53c24971b28e = $(`<div id="html_bc5391d42ef4575ddb3b53c24971b28e" style="width: 100.0%; height: 100.0%;">2025-03-20 - Toronto, ON, Canada: Over 80 Tesla vehicles scratched and tires punctured at dealership</div>`)[0];
-                popup_f47397a14b23ca6e7f3b9ec6352d9c9d.setContent(html_bc5391d42ef4575ddb3b53c24971b28e);
+                var html_db7afec5bbd2f1b827786d1a5a960b21 = $(`<div id="html_db7afec5bbd2f1b827786d1a5a960b21" style="width: 100.0%; height: 100.0%;">2025-03-20 - Toronto, ON, Canada: Over 80 Tesla vehicles scratched and tires punctured at dealership</div>`)[0];
+                popup_787b5039114b351d5b48064ace43ecfc.setContent(html_db7afec5bbd2f1b827786d1a5a960b21);
             
         
 
-        marker_f50ef68eba6e05c75a9a599266e86350.bindPopup(popup_f47397a14b23ca6e7f3b9ec6352d9c9d)
+        marker_f74f5e863d5837f46d25f28b3ef4f381.bindPopup(popup_787b5039114b351d5b48064ace43ecfc)
         ;
 
         
     
     
-            marker_f50ef68eba6e05c75a9a599266e86350.bindTooltip(
+            marker_f74f5e863d5837f46d25f28b3ef4f381.bindTooltip(
                 `<div>
                      Toronto, ON, Canada (2025-03-20)
                  </div>`,
@@ -869,17 +869,17 @@
             );
         
     
-                marker_f50ef68eba6e05c75a9a599266e86350.setIcon(icon_e2caf66c37d90d652e852c3691bef0de);
+                marker_f74f5e863d5837f46d25f28b3ef4f381.setIcon(icon_9264dc9821e2b7d0d8932693b962834e);
             
     
-            var marker_bc015a54f85dd5fbd36ea9eb2eda8768 = L.marker(
+            var marker_64a34809449708fe5e63815bfcc95d0d = L.marker(
                 [39.99316880000001, -75.40688099908917],
                 {
 }
-            ).addTo(marker_cluster_7c7cf3052f3f23bf45fc5f12deb0eb0a);
+            ).addTo(marker_cluster_491970eba6537ae6e0b044a10576b1a4);
         
     
-            var icon_a7c09e8d6fa1c0e6348291178a4b2d93 = L.AwesomeMarkers.icon(
+            var icon_7af599d0c43947a4f642e49cbd4a35d7 = L.AwesomeMarkers.icon(
                 {
   "markerColor": "blue",
   "iconColor": "white",
@@ -890,24 +890,24 @@
             );
         
     
-        var popup_45308c6ec8b77ada010139bca42ba567 = L.popup({
+        var popup_664de68f8d1aea6c616b3fb193c4b8d2 = L.popup({
   "maxWidth": "100%",
 });
 
         
             
-                var html_bfe762a83a29c05404c904436391be6a = $(`<div id="html_bfe762a83a29c05404c904436391be6a" style="width: 100.0%; height: 100.0%;">2025-03-23 - Newtown Township, PA: Cybertruck scratched by juveniles outside restaurant</div>`)[0];
-                popup_45308c6ec8b77ada010139bca42ba567.setContent(html_bfe762a83a29c05404c904436391be6a);
+                var html_a4fbb68d0f3f4729ca188b9b5a0f8bc3 = $(`<div id="html_a4fbb68d0f3f4729ca188b9b5a0f8bc3" style="width: 100.0%; height: 100.0%;">2025-03-23 - Newtown Township, PA: Cybertruck scratched by juveniles outside restaurant</div>`)[0];
+                popup_664de68f8d1aea6c616b3fb193c4b8d2.setContent(html_a4fbb68d0f3f4729ca188b9b5a0f8bc3);
             
         
 
-        marker_bc015a54f85dd5fbd36ea9eb2eda8768.bindPopup(popup_45308c6ec8b77ada010139bca42ba567)
+        marker_64a34809449708fe5e63815bfcc95d0d.bindPopup(popup_664de68f8d1aea6c616b3fb193c4b8d2)
         ;
 
         
     
     
-            marker_bc015a54f85dd5fbd36ea9eb2eda8768.bindTooltip(
+            marker_64a34809449708fe5e63815bfcc95d0d.bindTooltip(
                 `<div>
                      Newtown Township, PA (2025-03-23)
                  </div>`,
@@ -917,17 +917,17 @@
             );
         
     
-                marker_bc015a54f85dd5fbd36ea9eb2eda8768.setIcon(icon_a7c09e8d6fa1c0e6348291178a4b2d93);
+                marker_64a34809449708fe5e63815bfcc95d0d.setIcon(icon_7af599d0c43947a4f642e49cbd4a35d7);
             
     
-            var marker_ad065ba898918ac971b1c5d95a6663bf = L.marker(
+            var marker_fb3d074652004ec367c7245b8145defe = L.marker(
                 [38.1061979, -122.5681191],
                 {
 }
-            ).addTo(marker_cluster_7c7cf3052f3f23bf45fc5f12deb0eb0a);
+            ).addTo(marker_cluster_491970eba6537ae6e0b044a10576b1a4);
         
     
-            var icon_3697117f08dba49bec71571c9f81d9b0 = L.AwesomeMarkers.icon(
+            var icon_a4f2a6b0dc4267fda9d6d04a463729e6 = L.AwesomeMarkers.icon(
                 {
   "markerColor": "blue",
   "iconColor": "white",
@@ -938,24 +938,24 @@
             );
         
     
-        var popup_c962d079f1172ee7453365371e35ec75 = L.popup({
+        var popup_8f35e28a3d6d7a78c9537b78acc240e6 = L.popup({
   "maxWidth": "100%",
 });
 
         
             
-                var html_1d4760621f3e3179b5df8da94e7c4519 = $(`<div id="html_1d4760621f3e3179b5df8da94e7c4519" style="width: 100.0%; height: 100.0%;">2025-03-30 - Novato, CA: Cybertruck windshield smashed with concrete, tires slashed</div>`)[0];
-                popup_c962d079f1172ee7453365371e35ec75.setContent(html_1d4760621f3e3179b5df8da94e7c4519);
+                var html_ed7ceef12a4962ec1692d386ff00d12e = $(`<div id="html_ed7ceef12a4962ec1692d386ff00d12e" style="width: 100.0%; height: 100.0%;">2025-03-30 - Novato, CA: Cybertruck windshield smashed with concrete, tires slashed</div>`)[0];
+                popup_8f35e28a3d6d7a78c9537b78acc240e6.setContent(html_ed7ceef12a4962ec1692d386ff00d12e);
             
         
 
-        marker_ad065ba898918ac971b1c5d95a6663bf.bindPopup(popup_c962d079f1172ee7453365371e35ec75)
+        marker_fb3d074652004ec367c7245b8145defe.bindPopup(popup_8f35e28a3d6d7a78c9537b78acc240e6)
         ;
 
         
     
     
-            marker_ad065ba898918ac971b1c5d95a6663bf.bindTooltip(
+            marker_fb3d074652004ec367c7245b8145defe.bindTooltip(
                 `<div>
                      Novato, CA (2025-03-30)
                  </div>`,
@@ -965,17 +965,17 @@
             );
         
     
-                marker_ad065ba898918ac971b1c5d95a6663bf.setIcon(icon_3697117f08dba49bec71571c9f81d9b0);
+                marker_fb3d074652004ec367c7245b8145defe.setIcon(icon_a4f2a6b0dc4267fda9d6d04a463729e6);
             
     
-            var marker_48cb9c4cec8192463cd42547b6d7fe49 = L.marker(
+            var marker_92e256a24857ad14423d6486cf353483 = L.marker(
                 [45.5202471, -122.674194],
                 {
 }
-            ).addTo(marker_cluster_7c7cf3052f3f23bf45fc5f12deb0eb0a);
+            ).addTo(marker_cluster_491970eba6537ae6e0b044a10576b1a4);
         
     
-            var icon_4577ce9a3e3740a54d3d15e97a028144 = L.AwesomeMarkers.icon(
+            var icon_0615641cb821bc2976edfe0eadfa2457 = L.AwesomeMarkers.icon(
                 {
   "markerColor": "blue",
   "iconColor": "white",
@@ -986,24 +986,24 @@
             );
         
     
-        var popup_34a53a0fb194651102789cdba85ce6ed = L.popup({
+        var popup_f36d67f16010dafae0cd74c9cc96ba60 = L.popup({
   "maxWidth": "100%",
 });
 
         
             
-                var html_aae127b55af848e0d370ae0c6fb07919 = $(`<div id="html_aae127b55af848e0d370ae0c6fb07919" style="width: 100.0%; height: 100.0%;">2025-04-01 - Portland, OR: Charging station spray-painted 'STOP DOGE' and set ablaze</div>`)[0];
-                popup_34a53a0fb194651102789cdba85ce6ed.setContent(html_aae127b55af848e0d370ae0c6fb07919);
+                var html_2d8d58cd940001a658ae474d5cf79cd4 = $(`<div id="html_2d8d58cd940001a658ae474d5cf79cd4" style="width: 100.0%; height: 100.0%;">2025-04-01 - Portland, OR: Charging station spray-painted 'STOP DOGE' and set ablaze</div>`)[0];
+                popup_f36d67f16010dafae0cd74c9cc96ba60.setContent(html_2d8d58cd940001a658ae474d5cf79cd4);
             
         
 
-        marker_48cb9c4cec8192463cd42547b6d7fe49.bindPopup(popup_34a53a0fb194651102789cdba85ce6ed)
+        marker_92e256a24857ad14423d6486cf353483.bindPopup(popup_f36d67f16010dafae0cd74c9cc96ba60)
         ;
 
         
     
     
-            marker_48cb9c4cec8192463cd42547b6d7fe49.bindTooltip(
+            marker_92e256a24857ad14423d6486cf353483.bindTooltip(
                 `<div>
                      Portland, OR (2025-04-01)
                  </div>`,
@@ -1013,17 +1013,17 @@
             );
         
     
-                marker_48cb9c4cec8192463cd42547b6d7fe49.setIcon(icon_4577ce9a3e3740a54d3d15e97a028144);
+                marker_92e256a24857ad14423d6486cf353483.setIcon(icon_0615641cb821bc2976edfe0eadfa2457);
             
     
-            var marker_e37d63f83fa03d429f8958c7c2f27941 = L.marker(
+            var marker_05018a7c6980ce45720e436eca83fea3 = L.marker(
                 [30.2711286, -97.7436995],
                 {
 }
-            ).addTo(marker_cluster_7c7cf3052f3f23bf45fc5f12deb0eb0a);
+            ).addTo(marker_cluster_491970eba6537ae6e0b044a10576b1a4);
         
     
-            var icon_f4591be6cffd6fbca4a8f6e9c7c25e7a = L.AwesomeMarkers.icon(
+            var icon_fbf994587faa71a00cd041294d18e5c6 = L.AwesomeMarkers.icon(
                 {
   "markerColor": "blue",
   "iconColor": "white",
@@ -1034,24 +1034,24 @@
             );
         
     
-        var popup_208c565fa460fcc621abd00ed41760bc = L.popup({
+        var popup_69b85027110d02d8b68ad5c55a8fd977 = L.popup({
   "maxWidth": "100%",
 });
 
         
             
-                var html_3cbc8286f54ce088e14d677489ff818d = $(`<div id="html_3cbc8286f54ce088e14d677489ff818d" style="width: 100.0%; height: 100.0%;">2025-04-02 - Austin, TX: Model Y scratched, tires punctured, 'MUSK OUT' on hood</div>`)[0];
-                popup_208c565fa460fcc621abd00ed41760bc.setContent(html_3cbc8286f54ce088e14d677489ff818d);
+                var html_b9230609223b0cf2639e1e2e1da3685c = $(`<div id="html_b9230609223b0cf2639e1e2e1da3685c" style="width: 100.0%; height: 100.0%;">2025-04-02 - Austin, TX: Model Y scratched, tires punctured, 'MUSK OUT' on hood</div>`)[0];
+                popup_69b85027110d02d8b68ad5c55a8fd977.setContent(html_b9230609223b0cf2639e1e2e1da3685c);
             
         
 
-        marker_e37d63f83fa03d429f8958c7c2f27941.bindPopup(popup_208c565fa460fcc621abd00ed41760bc)
+        marker_05018a7c6980ce45720e436eca83fea3.bindPopup(popup_69b85027110d02d8b68ad5c55a8fd977)
         ;
 
         
     
     
-            marker_e37d63f83fa03d429f8958c7c2f27941.bindTooltip(
+            marker_05018a7c6980ce45720e436eca83fea3.bindTooltip(
                 `<div>
                      Austin, TX (2025-04-02)
                  </div>`,
@@ -1061,13 +1061,13 @@
             );
         
     
-                marker_e37d63f83fa03d429f8958c7c2f27941.setIcon(icon_f4591be6cffd6fbca4a8f6e9c7c25e7a);
+                marker_05018a7c6980ce45720e436eca83fea3.setIcon(icon_fbf994587faa71a00cd041294d18e5c6);
             
     
-            marker_cluster_7c7cf3052f3f23bf45fc5f12deb0eb0a.addTo(map_6032a5606ca4b9598d61aa0c7f329dc2);
+            marker_cluster_491970eba6537ae6e0b044a10576b1a4.addTo(map_631ae6b6bbebf0eb224a359cf73507a1);
         
     
-            var heat_map_293175b8cbf46d4973ed069829bc660c = L.heatLayer(
+            var heat_map_6fbf9124c2fd36f74235b9498ecce0a6 = L.heatLayer(
                 [[44.9391565, -123.033121], [40.3977612, -105.07498], [40.3977612, -105.07498], [44.9391565, -123.033121], [40.3977612, -105.07498], [39.41484355, -76.79182399596584], [42.5375917, -71.5120096], [45.4307473, -122.771933], [32.8546197, -79.9748103], [47.6038321, -122.330062], [42.2489143, -71.1755732], [45.4307473, -122.771933], [37.8708393, -122.272863], [37.3361663, -121.890591], [36.2533896, -115.2794366262601], [43.6534817, -79.3839347], [39.99316880000001, -75.40688099908917], [38.1061979, -122.5681191], [45.5202471, -122.674194], [30.2711286, -97.7436995]],
                 {
   "minOpacity": 0.5,
@@ -1078,7 +1078,7 @@
             );
         
     
-            heat_map_293175b8cbf46d4973ed069829bc660c.addTo(map_6032a5606ca4b9598d61aa0c7f329dc2);
+            heat_map_6fbf9124c2fd36f74235b9498ecce0a6.addTo(map_631ae6b6bbebf0eb224a359cf73507a1);
         
 </script>
 </html>
